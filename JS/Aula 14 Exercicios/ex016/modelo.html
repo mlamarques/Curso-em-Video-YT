@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Contador</title>
+    <link rel="stylesheet" href="estilo02.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos Contar &#128681;</h1>
+    </header>
+    <section>
+        <div>
+            <p>Start: 
+                <input type="number" name="txtstart" id="txtstart" min="0">
+            </p>
+            <p>End: 
+                <input type="number" name="txtend" id="txtend" min="0">
+            </p>
+            <p>Step: 
+                <input type="number" name="txtstep" id="txtstep" min="1">
+            </p>
+            <p>
+                <input type="button" value="Calculate" onclick="calculate()">
+            </p>
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado!<span>&#128073;&#127995;</span>
+        </div>
+        <div id="res2"></div>
+
+    </section>
+    <footer>
+        <p>&copy; Mtech</p>
+    </footer>
+    <script src="script02.js"></script>
+</body>
+</html>
